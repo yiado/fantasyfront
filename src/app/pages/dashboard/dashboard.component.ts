@@ -1,5 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import Chart from 'chart.js';
+import { RankingService } from 'src/app/service/ranking.service';
+
 
 @Component({
   selector: "app-dashboard",
@@ -15,9 +17,36 @@ export class DashboardComponent implements OnInit {
   public clicked1: boolean = false;
   public clicked2: boolean = false;
 
-  constructor() {}
+  constructor(private rankingService: RankingService) {}
+
+  Rankings = [];
+  //counter = 0;
+
+  /*getAllJugador(){
+    this.jugadorService.getAllJugador()
+    .subscribe(Jugador =>{
+      this.Jugadores = Jugador
+      console.log(Jugador)
+    });
+  }*/
+
+  getAllRanking(){
+    this.rankingService.getAllRanking()
+    .subscribe(ranking =>{
+      this.Rankings = ranking
+      console.log(ranking)
+    });
+  }
+
+  /*increment() {
+    this.counter++;
+    return this.counter
+  }*/
 
   ngOnInit() {
+    
+    this.getAllRanking()
+
     var gradientChartOptionsConfigurationWithTooltipBlue: any = {
       maintainAspectRatio: false,
       legend: {
