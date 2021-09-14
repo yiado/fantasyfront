@@ -318,7 +318,7 @@
     <div class=" col-lg-12 col-md-12">
       <div class=" card">
         <div class=" card-header">
-          <h4 class=" card-title">Ranking Historico</h4>
+          <h4 class=" card-title">Tabla General</h4>
         </div>
         <div class=" card-body">
           <div class=" table-responsive">
@@ -326,48 +326,19 @@
               <thead class=" text-primary">
                 <tr>
                   <th >Posición</th>
-                  <th >Avatar</th>
                   <th>Nombre</th>
                   <th>Pais de Origen</th>
                   <th>Residencia</th>
-                  <th>Status</th>
-                  <th>Victorias</th>
-                  <th>Torneo</th>
                   <th class=" text-center">Puntos</th>
                 </tr>
               </thead>
               <tbody>
-                <tr *ngFor="let Ranking of Rankings">
-                  <th>{{Ranking.posicion+'º'}}</th>
-                  <td>
-                    <div class="avatar-group">
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                        <img alt="Image placeholder" src="../assets/img/theme/team-1-800x800.jpg" class="rounded-circle">
-                      </a>
-                    </div>
-                  </td>
-                  <td>{{Ranking.jugadorId.nombre}}</td>
-                  <td>{{Ranking.jugadorId.pais}}</td>
-                  <td>{{Ranking.jugadorId.residencia}}</td>
-                  <td>{{Ranking.status}}</td>
-                  <td>
-                    <div class="avatar-group">
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Ryan Tompson">
-                        <img alt="Image placeholder" src="../assets/img/theme/numero-3.jpeg" class="rounded-circle">
-                      </a>
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Romina Hadid">
-                        <img alt="Image placeholder" src="../assets/img/theme/numero-3.jpeg" class="rounded-circle">
-                      </a>
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Alexander Smith">
-                        <img alt="Image placeholder" src="../assets/img/theme/numero-3.jpeg" class="rounded-circle">
-                      </a>
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Jessica Doe">
-                        <img alt="Image placeholder" src="../assets/img/theme/numero-3.jpeg" class="rounded-circle">
-                      </a>
-                    </div>
-                  </td>
-                  <td>{{Ranking.torneoId.nombre}}</td>
-                  <td class=" text-center">{{Ranking.puntos}}</td>
+                <tr *ngFor="let Ranking of Rankings;let indice=index">
+                  <th>{{indice+1}}</th>
+                  <td>{{Ranking.nombre}}</td>
+                  <td>{{Ranking.pais}}</td>
+                  <td>{{Ranking.residencia}}</td>
+                  <td class=" text-center">{{Ranking.puntosGlobales}}</td>
                 </tr>
               </tbody>
             </table>

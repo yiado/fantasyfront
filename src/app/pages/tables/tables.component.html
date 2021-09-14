@@ -4,8 +4,24 @@
     <div class=" col-md-12">
       <div class=" card">
         <div class=" card-header">
-          <h4 class=" card-title">Simple Table</h4>
+          <h4 class=" card-title">Tabla Detalle</h4>
         </div>
+        <form>
+          <div class=" row">
+            <div class=" col-md-1"></div>
+            <div class=" col-md-10">
+              <div class=" form-group">
+                <select class="form-control" aria-label="Default select example" name="miselect" [(ngModel)]="seleccionado">
+                  <option selected>Seleccione un Torneo</option>
+                  <option [ngValue]="57">EUROCOPA 2020</option>
+                  <option [ngValue]="58">CHAMPIONS 20-21</option>
+                  <option [ngValue]="59">CHAMPIONS 19-20</option>
+                  <option [ngValue]="60">MUNDIAL 2018</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </form>
         <div class=" card-body">
           <div class=" table-responsive">
             <table class=" table tablesorter" id="">
@@ -18,47 +34,11 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>Dakota Rice</td>
-                  <td>Niger</td>
-                  <td>Oud-Turnhout</td>
-                  <td class=" text-center">$36,738</td>
-                </tr>
-                <tr>
-                  <td>Minerva Hooper</td>
-                  <td>CuraÃ§ao</td>
-                  <td>Sinaai-Waas</td>
-                  <td class=" text-center">$23,789</td>
-                </tr>
-                <tr>
-                  <td>Sage Rodriguez</td>
-                  <td>Netherlands</td>
-                  <td>Baileux</td>
-                  <td class=" text-center">$56,142</td>
-                </tr>
-                <tr>
-                  <td>Philip Chaney</td>
-                  <td>Korea, South</td>
-                  <td>Overland Park</td>
-                  <td class=" text-center">$38,735</td>
-                </tr>
-                <tr>
-                  <td>Doris Greene</td>
-                  <td>Malawi</td>
-                  <td>Feldkirchen in KÃ¤rnten</td>
-                  <td class=" text-center">$63,542</td>
-                </tr>
-                <tr>
-                  <td>Mason Porter</td>
-                  <td>Chile</td>
-                  <td>Gloucester</td>
-                  <td class=" text-center">$78,615</td>
-                </tr>
-                <tr>
-                  <td>Jon Porter</td>
-                  <td>Portugal</td>
-                  <td>Gloucester</td>
-                  <td class=" text-center">$98,615</td>
+                <tr *ngFor="let Ranking of Rankings;let indice=index">
+                  <td>{{Ranking.jugadorId.nombre}}</td>
+                  <td>{{Ranking.jugadorId.residencia}}</td>
+                  <td>{{Ranking.torneoId.nombre}}</td>
+                  <td class=" text-center">{{Ranking.puntos}}</td>
                 </tr>
               </tbody>
             </table>
@@ -66,7 +46,7 @@
         </div>
       </div>
     </div>
-    <div class=" col-md-12">
+    <!--<div class=" col-md-12">
       <div class=" card card-plain">
         <div class=" card-header">
           <h4 class=" card-title">Table on Plain Background</h4>
@@ -131,6 +111,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
