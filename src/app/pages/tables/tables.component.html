@@ -11,12 +11,9 @@
             <div class=" col-md-1"></div>
             <div class=" col-md-10">
               <div class=" form-group">
-                <select class="form-control" aria-label="Default select example" name="miselect" [(ngModel)]="seleccionado">
-                  <option selected>Seleccione un Torneo</option>
-                  <option [ngValue]="57">EUROCOPA 2020</option>
-                  <option [ngValue]="58">CHAMPIONS 20-21</option>
-                  <option [ngValue]="59">CHAMPIONS 19-20</option>
-                  <option [ngValue]="60">MUNDIAL 2018</option>
+                <select class="form-control" [(ngModel)]="selectTorneo.id" aria-label="Default select example" (change)="onSelect($event.target.value)">
+                  <!--<option selected>Seleccione un Torneo</option>-->
+                  <option *ngFor="let tor of Torneos" value="{{tor.id}}">{{tor.nombre}}</option>
                 </select>
               </div>
             </div>
@@ -27,6 +24,7 @@
             <table class=" table tablesorter" id="">
               <thead class=" text-primary">
                 <tr>
+                  <th>Posición</th>
                   <th>Name</th>
                   <th>Country</th>
                   <th>City</th>
@@ -35,6 +33,7 @@
               </thead>
               <tbody>
                 <tr *ngFor="let Ranking of Rankings;let indice=index">
+                  <td>{{indice+1}}º</td>
                   <td>{{Ranking.jugadorId.nombre}}</td>
                   <td>{{Ranking.jugadorId.residencia}}</td>
                   <td>{{Ranking.torneoId.nombre}}</td>

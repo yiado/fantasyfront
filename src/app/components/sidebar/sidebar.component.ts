@@ -26,12 +26,6 @@ export const ROUTES: RouteInfo[] = [
     rtlTitle: "الرموز",
     icon: "icon-atom",
     class: ""
-  },{
-    path: "/user",
-    title: "User Profile",
-    rtlTitle: "ملف تعريفي للمستخدم",
-    icon: "icon-single-02",
-    class: ""
   }/*,
   {
     path: "/icons",
