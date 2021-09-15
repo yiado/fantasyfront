@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, DoCheck } from "@angular/core";
 import { Torneo } from "src/app/interface/torneo";
 import { Ranking } from "src/app/interface/ranking";
 import { RankingService } from 'src/app/service/ranking.service';
@@ -8,7 +8,7 @@ import { TorneoService } from 'src/app/service/torneo.service';
   selector: "app-tables",
   templateUrl: "tables.component.html"
 })
-export class TablesComponent implements OnInit {
+export class TablesComponent implements OnInit, DoCheck {
 
   public NombreTabla : String;  
   public Posicion : String; 
@@ -52,10 +52,15 @@ export class TablesComponent implements OnInit {
     });
   }
 
-
+  /* Hooks */ 
   ngOnInit() {
     this.getAllTorneo()
     this.getAllRanking(this.selectTorneo.id)
+
+  }
+  /* Hooks escucha todos los cambios en la vista*/ 
+  ngDoCheck() {
+    console.log("Ejecucion Docheck")
 
   }
 
