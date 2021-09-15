@@ -20,13 +20,13 @@ export const ROUTES: RouteInfo[] = [
     rtlTitle: "قائمة الجدول",
     icon: "icon-chart-bar-32",
     class: ""
-  },{
+  }/*,{
     path: "/user",
     title: "User Profile",
     rtlTitle: "ملف تعريفي للمستخدم",
     icon: "icon-single-02",
     class: ""
-  }/*,
+  },
   {
     path: "/icons",
     title: "Icons",
