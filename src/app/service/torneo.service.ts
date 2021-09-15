@@ -11,7 +11,7 @@ export class TorneoService {
 
   constructor(private http: HttpClient, private LoginService:LoginService ) { }
 
-  Login = []
+  /*Login
 
   getLogin(){
     this.LoginService.getLoginData()
@@ -19,10 +19,10 @@ export class TorneoService {
       this.Login = loging
       console.log(loging)
     });
-  }
+  }*/
 
   getAllTorneoData(){
-    this.getLogin()
+    //this.getLogin()
     const path = 'http://localhost:2003/v1/torneos';
     const headers = { 
       'Content-Type': 'application/json', 
