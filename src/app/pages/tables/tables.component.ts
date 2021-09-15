@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Torneo } from "src/app/interface/torneo";
+import { Ranking } from "src/app/interface/ranking";
 import { RankingService } from 'src/app/service/ranking.service';
 import { TorneoService } from 'src/app/service/torneo.service';
 
@@ -8,15 +9,32 @@ import { TorneoService } from 'src/app/service/torneo.service';
   templateUrl: "tables.component.html"
 })
 export class TablesComponent implements OnInit {
-  constructor(private rankingService: RankingService, private torneoService: TorneoService) {}
-  public selectTorneo: Torneo ={   id: 54,
-                                   nombre: '',
-                                   tipo: '',
-                                   fecha: '',
-                                   status: true
-                              };
-  Rankings = [];
-  Torneos : Torneo[];
+
+  public NombreTabla : String;  
+  public Posicion : String; 
+  public Nombre : String; 
+  public Torneo : String; 
+  public Residencia : String; 
+  public Puntos : String; 
+  public Rankings : Ranking[];
+  public Torneos : Torneo[];
+  public selectTorneo: Torneo ={  
+    id: 54,
+    nombre: '',
+    tipo: '',
+    fecha: '',
+    status: true
+};
+
+  constructor(private rankingService: RankingService, private torneoService: TorneoService) {
+
+    this.NombreTabla = "Tabla Detalle";
+    this.Posicion = "Posición";
+    this.Nombre = "Jugador";
+    this.Torneo = "Torneo";
+    this.Residencia = "Residencia";
+    this.Puntos = "Puntos";
+  }
 
   getAllRanking(id){
     this.rankingService.getAllRankingData(id)

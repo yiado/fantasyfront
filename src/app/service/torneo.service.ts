@@ -11,8 +11,8 @@ export class TorneoService {
 
   constructor(private http: HttpClient, private LoginService:LoginService ) { }
 
-  /*Login
-
+  Login : any
+  /*
   getLogin(){
     this.LoginService.getLoginData()
     .subscribe(loging =>{

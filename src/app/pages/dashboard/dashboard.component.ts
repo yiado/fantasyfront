@@ -1,5 +1,7 @@
+import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
 import { Component, OnInit } from "@angular/core";
 import Chart from 'chart.js';
+import { Jugador } from "src/app/interface/jugador";
 import { JugadorService } from 'src/app/service/jugador.service';
 
 
@@ -8,6 +10,8 @@ import { JugadorService } from 'src/app/service/jugador.service';
   templateUrl: "dashboard.component.html"
 })
 export class DashboardComponent implements OnInit {
+
+
   public canvas : any;
   public ctx;
   public datasets: any;
@@ -16,15 +20,32 @@ export class DashboardComponent implements OnInit {
   public clicked: boolean = true;
   public clicked1: boolean = false;
   public clicked2: boolean = false;
+  public Rankings : Jugador[];
+  public NombreTabla : String;  
+  public Posicion : String; 
+  public Nombre : String; 
+  public PaisOrigen : String; 
+  public Residencia : String; 
+  public Puntos : String; 
 
-  constructor(private jugadorService: JugadorService) {}
 
-  Rankings = [];
+  constructor(private jugadorService: JugadorService) {
+
+    this.NombreTabla = "Tabla General";
+    this.Posicion = "Posición";
+    this.Nombre = "Jugador";
+    this.PaisOrigen = "Pais de Origen";
+    this.Residencia = "Residencia";
+    this.Puntos = "Puntos";
+
+  }
+
+  
 
   getAllJugador(){
     this.jugadorService.getAllJugador()
-    .subscribe(ranking =>{
-      this.Rankings = ranking
+    .subscribe(jugador =>{
+      this.Rankings = jugador
       //console.log(ranking)
     });
   }
