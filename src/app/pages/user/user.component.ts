@@ -6,10 +6,10 @@ import { Component, OnInit, DoCheck, OnDestroy } from "@angular/core";
 })
 export class UserComponent implements OnInit, DoCheck, OnDestroy {
 
-  public MostrarTabla : boolean
+  public mostrartabla : boolean
 
   constructor() {
-    this.MostrarTabla = false
+    this.mostrartabla = true
   }
 
   ngOnInit() {
@@ -25,7 +25,8 @@ export class UserComponent implements OnInit, DoCheck, OnDestroy {
   }
 
   upTabla(){
-    this.MostrarTabla = true
+    this.mostrartabla = false
+    //console.log("mostar tables", this.mostrartabla)
   }
 
 
