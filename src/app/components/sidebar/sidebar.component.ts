@@ -27,13 +27,6 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-single-02",
     class: ""
   },{
-    path: "/notifications",
-    title: "Notifications",
-    rtlTitle: "إخطارات",
-    icon: "icon-bell-55",
-    class: ""
-  }
-  ,{
     path: "/condiciones",
     title: "Condiciones",
     rtlTitle: "إخطارات",

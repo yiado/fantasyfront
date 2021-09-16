@@ -60,7 +60,7 @@ export class TablesComponent implements OnInit, DoCheck {
   }
   /* Hooks escucha todos los cambios en la vista*/ 
   ngDoCheck() {
-    console.log("Ejecucion Docheck")
+    //console.log("Ejecucion Docheck")
 
   }
 

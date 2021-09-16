@@ -13,20 +13,20 @@ export class UserComponent implements OnInit, DoCheck, OnDestroy {
   }
 
   ngOnInit() {
-    console.log("Ejecutando el NgOnInit")
+    //console.log("Ejecutando el NgOnInit")
   }
 
   ngDoCheck(){
-    console.log("Ejecutando el ngDoCheck")
+    //console.log("Ejecutando el ngDoCheck")
   }
 
   ngOnDestroy(){
-    console.log("Ejecutando el ngOnDestroy")
+    //console.log("Ejecutando el ngOnDestroy")
   }
 
   upTabla(){
     this.mostrartabla = false
-    //console.log("mostar tables", this.mostrartabla)
+    console.log("mostar tables", this.mostrartabla)
   }
 
 
