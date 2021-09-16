@@ -1,680 +1,680 @@
 [
     {
-        "54": [
+        "1": [
             {
-                "jugadorId": {"id": "87"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "8"},
+                "torneoId": {"id": "1"},
                 "posicion": "1",
                 "puntos": "358",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "85"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "6"},
+                "torneoId": {"id": "1"},
                 "posicion": "2",
                 "puntos": "347",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "89"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "10"},
+                "torneoId": {"id": "1"},
                 "posicion": "3",
                 "puntos": "319",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "88"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "9"},
+                "torneoId": {"id": "1"},
                 "posicion": "4",
                 "puntos": "306",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "91"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "12"},
+                "torneoId": {"id": "1"},
                 "posicion": "5",
                 "puntos": "298",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "86"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "7"},
+                "torneoId": {"id": "1"},
                 "posicion": "6",
                 "puntos": "297",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "84"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "5"},
+                "torneoId": {"id": "1"},
                 "posicion": "7",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "90"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "11"},
+                "torneoId": {"id": "1"},
                 "posicion": "8",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "92"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "13"},
+                "torneoId": {"id": "1"},
                 "posicion": "9",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "93"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "14"},
+                "torneoId": {"id": "1"},
                 "posicion": "10",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "94"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "15"},
+                "torneoId": {"id": "1"},
                 "posicion": "11",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "95"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "16"},
+                "torneoId": {"id": "1"},
                 "posicion": "12",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "96"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "17"},
+                "torneoId": {"id": "1"},
                 "posicion": "13",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "97"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "18"},
+                "torneoId": {"id": "1"},
                 "posicion": "14",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "98"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "19"},
+                "torneoId": {"id": "1"},
                 "posicion": "15",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "99"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "20"},
+                "torneoId": {"id": "1"},
                 "posicion": "16",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "100"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "21"},
+                "torneoId": {"id": "1"},
                 "posicion": "17",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "101"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "22"},
+                "torneoId": {"id": "1"},
                 "posicion": "18",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "102"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "23"},
+                "torneoId": {"id": "1"},
                 "posicion": "19",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "103"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "24"},
+                "torneoId": {"id": "1"},
                 "posicion": "20",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "104"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "25"},
+                "torneoId": {"id": "1"},
                 "posicion": "21",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "105"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "26"},
+                "torneoId": {"id": "1"},
                 "posicion": "22",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "106"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "27"},
+                "torneoId": {"id": "1"},
                 "posicion": "23",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "107"},
-                "torneoId": {"id": "54"},
+                "jugadorId": {"id": "28"},
+                "torneoId": {"id": "1"},
                 "posicion": "24",
                 "puntos": "0",
                 "status": "true"
             }
         ],
-        "55": [
+        "2": [
             {
-                "jugadorId": {"id": "84"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "5"},
+                "torneoId": {"id": "2"},
                 "posicion": "1",
                 "puntos": "836",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "85"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "6"},
+                "torneoId": {"id": "2"},
                 "posicion": "2",
                 "puntos": "826",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "87"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "8"},
+                "torneoId": {"id": "2"},
                 "posicion": "3",
                 "puntos": "787",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "86"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "7"},
+                "torneoId": {"id": "2"},
                 "posicion": "4",
                 "puntos": "781",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "101"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "22"},
+                "torneoId": {"id": "2"},
                 "posicion": "5",
                 "puntos": "779",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "88"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "9"},
+                "torneoId": {"id": "2"},
                 "posicion": "6",
                 "puntos": "751",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "91"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "12"},
+                "torneoId": {"id": "2"},
                 "posicion": "7",
                 "puntos": "745",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "89"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "10"},
+                "torneoId": {"id": "2"},
                 "posicion": "8",
                 "puntos": "736",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "93"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "14"},
+                "torneoId": {"id": "2"},
                 "posicion": "9",
                 "puntos": "733",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "94"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "15"},
+                "torneoId": {"id": "2"},
                 "posicion": "10",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "95"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "16"},
+                "torneoId": {"id": "2"},
                 "posicion": "11",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "96"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "17"},
+                "torneoId": {"id": "2"},
                 "posicion": "12",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "97"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "18"},
+                "torneoId": {"id": "2"},
                 "posicion": "13",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "98"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "19"},
+                "torneoId": {"id": "2"},
                 "posicion": "14",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "99"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "20"},
+                "torneoId": {"id": "2"},
                 "posicion": "15",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "100"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "21"},
+                "torneoId": {"id": "2"},
                 "posicion": "16",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "102"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "23"},
+                "torneoId": {"id": "2"},
                 "posicion": "17",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "103"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "24"},
+                "torneoId": {"id": "2"},
                 "posicion": "18",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "104"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "25"},
+                "torneoId": {"id": "2"},
                 "posicion": "19",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "105"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "26"},
+                "torneoId": {"id": "2"},
                 "posicion": "20",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "106"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "27"},
+                "torneoId": {"id": "2"},
                 "posicion": "21",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "107"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "28"},
+                "torneoId": {"id": "2"},
                 "posicion": "22",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "90"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "11"},
+                "torneoId": {"id": "2"},
                 "posicion": "23",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "92"},
-                "torneoId": {"id": "55"},
+                "jugadorId": {"id": "13"},
+                "torneoId": {"id": "2"},
                 "posicion": "24",
                 "puntos": "0",
                 "status": "true"
             }
         ],
-        "56": [
+        "3": [
             {
-                "jugadorId": {"id": "92"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "13"},
+                "torneoId": {"id": "3"},
                 "posicion": "1",
                 "puntos": "916",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "91"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "12"},
+                "torneoId": {"id": "3"},
                 "posicion": "2",
                 "puntos": "867",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "84"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "5"},
+                "torneoId": {"id": "3"},
                 "posicion": "3",
                 "puntos": "861",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "87"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "8"},
+                "torneoId": {"id": "3"},
                 "posicion": "4",
                 "puntos": "836",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "85"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "6"},
+                "torneoId": {"id": "3"},
                 "posicion": "5",
                 "puntos": "829",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "93"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "14"},
+                "torneoId": {"id": "3"},
                 "posicion": "6",
                 "puntos": "809",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "94"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "15"},
+                "torneoId": {"id": "3"},
                 "posicion": "7",
                 "puntos": "791",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "90"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "11"},
+                "torneoId": {"id": "3"},
                 "posicion": "8",
                 "puntos": "789",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "95"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "16"},
+                "torneoId": {"id": "3"},
                 "posicion": "9",
                 "puntos": "784",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "89"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "10"},
+                "torneoId": {"id": "3"},
                 "posicion": "10",
                 "puntos": "780",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "86"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "7"},
+                "torneoId": {"id": "3"},
                 "posicion": "11",
                 "puntos": "771",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "96"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "17"},
+                "torneoId": {"id": "3"},
                 "posicion": "12",
                 "puntos": "764",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "97"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "18"},
+                "torneoId": {"id": "3"},
                 "posicion": "13",
                 "puntos": "761",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "98"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "19"},
+                "torneoId": {"id": "3"},
                 "posicion": "14",
                 "puntos": "748",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "99"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "20"},
+                "torneoId": {"id": "3"},
                 "posicion": "15",
                 "puntos": "738",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "100"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "21"},
+                "torneoId": {"id": "3"},
                 "posicion": "16",
                 "puntos": "730",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "101"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "22"},
+                "torneoId": {"id": "3"},
                 "posicion": "17",
                 "puntos": "691",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "102"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "23"},
+                "torneoId": {"id": "3"},
                 "posicion": "18",
                 "puntos": "685",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "103"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "24"},
+                "torneoId": {"id": "3"},
                 "posicion": "19",
                 "puntos": "671",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "104"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "25"},
+                "torneoId": {"id": "3"},
                 "posicion": "20",
                 "puntos": "638",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "88"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "9"},
+                "torneoId": {"id": "3"},
                 "posicion": "21",
                 "puntos": "627",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "105"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "26"},
+                "torneoId": {"id": "3"},
                 "posicion": "22",
                 "puntos": "583",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "106"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "27"},
+                "torneoId": {"id": "3"},
                 "posicion": "23",
                 "puntos": "549",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "107"},
-                "torneoId": {"id": "56"},
+                "jugadorId": {"id": "28"},
+                "torneoId": {"id": "3"},
                 "posicion": "24",
                 "puntos": "0",
                 "status": "true"
             }
         ],
-        "57": [
+        "4": [
             {
-                "jugadorId": {"id": "84"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "5"},
+                "torneoId": {"id": "4"},
                 "posicion": "1",
                 "puntos": "379",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "97"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "18"},
+                "torneoId": {"id": "4"},
                 "posicion": "2",
                 "puntos": "377",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "86"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "7"},
+                "torneoId": {"id": "4"},
                 "posicion": "3",
                 "puntos": "361",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "85"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "6"},
+                "torneoId": {"id": "4"},
                 "posicion": "4",
                 "puntos": "360",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "88"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "9"},
+                "torneoId": {"id": "4"},
                 "posicion": "5",
                 "puntos": "359",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "90"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "11"},
+                "torneoId": {"id": "4"},
                 "posicion": "6",
                 "puntos": "357",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "96"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "17"},
+                "torneoId": {"id": "4"},
                 "posicion": "7",
                 "puntos": "355",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "87"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "8"},
+                "torneoId": {"id": "4"},
                 "posicion": "8",
                 "puntos": "351",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "107"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "28"},
+                "torneoId": {"id": "4"},
                 "posicion": "9",
                 "puntos": "351",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "89"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "10"},
+                "torneoId": {"id": "4"},
                 "posicion": "10",
                 "puntos": "350",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "103"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "24"},
+                "torneoId": {"id": "4"},
                 "posicion": "11",
                 "puntos": "348",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "105"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "26"},
+                "torneoId": {"id": "4"},
                 "posicion": "12",
                 "puntos": "345",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "94"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "15"},
+                "torneoId": {"id": "4"},
                 "posicion": "13",
                 "puntos": "342",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "95"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "16"},
+                "torneoId": {"id": "4"},
                 "posicion": "14",
                 "puntos": "334",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "101"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "22"},
+                "torneoId": {"id": "4"},
                 "posicion": "15",
                 "puntos": "333",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "99"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "20"},
+                "torneoId": {"id": "4"},
                 "posicion": "16",
                 "puntos": "332",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "91"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "12"},
+                "torneoId": {"id": "4"},
                 "posicion": "17",
                 "puntos": "330",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "98"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "19"},
+                "torneoId": {"id": "4"},
                 "posicion": "18",
                 "puntos": "329",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "92"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "13"},
+                "torneoId": {"id": "4"},
                 "posicion": "19",
                 "puntos": "304",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "100"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "21"},
+                "torneoId": {"id": "4"},
                 "posicion": "20",
                 "puntos": "294",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "93"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "14"},
+                "torneoId": {"id": "4"},
                 "posicion": "21",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "102"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "23"},
+                "torneoId": {"id": "4"},
                 "posicion": "22",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "104"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "25"},
+                "torneoId": {"id": "4"},
                 "posicion": "23",
                 "puntos": "0",
                 "status": "true"
             },
             {
-                "jugadorId": {"id": "106"},
-                "torneoId": {"id": "57"},
+                "jugadorId": {"id": "27"},
+                "torneoId": {"id": "4"},
                 "posicion": "24",
                 "puntos": "0",
                 "status": "true"
