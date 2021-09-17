@@ -334,7 +334,16 @@
               </thead>
               <tbody>
                 <tr *ngFor="let Ranking of Rankings;let indice=index">
-                  <th>{{indice+1}}º</th>
+                  <!--Ejemplo como atrivuto NgStyle-->
+                  <!-- <th><span [class.bg-success]="indice > 0" [class.badge]="indice > 0">{{indice+1}}º</span></th> -->
+                  <!--Ejemplo NgClass -->
+                  <th><span [ngClass]="{
+                                      'badge': indice >= 0,
+                                      'bg-danger': indice == 0,
+                                      'bg-success': indice == 1,
+                                      'bg-info': indice === 2
+                                    }"
+                     >{{indice+1}}º</span></th>
                   <td>{{Ranking.nombre}}</td>
                   <td>{{Ranking.pais}}</td>
                   <td>{{Ranking.residencia}}</td>
