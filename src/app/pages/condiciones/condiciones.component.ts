@@ -84,10 +84,15 @@ export class CondicionesComponent implements OnInit {
   ngOnInit() {
 
     this._activatedRoute.params.subscribe((params: Params) =>{
-    console.log(params);
+    //console.log(params);
     this.nombre = params.nombre
 
   })
 }
+
+  redireccion(){
+    //alert("Metodo redirect")
+    this._router.navigate(['/condiciones','YmendezM'])
+  }
 
 }
