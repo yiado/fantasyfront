@@ -18,6 +18,8 @@ export const AdminLayoutRoutes: Routes = [
   { path: "user", component: UserComponent },
   { path: "tables", component: TablesComponent },
   { path: "typography", component: TypographyComponent },
-  { path: "condiciones", component: CondicionesComponent}
+  { path: "condiciones", component: CondicionesComponent},
+  //Pasando parametros por rutas
+  { path: "condiciones/:nombre", component: CondicionesComponent}
   // { path: "rtl", component: RtlComponent }
 ];

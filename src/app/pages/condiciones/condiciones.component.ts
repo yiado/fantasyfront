@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-condiciones',
@@ -14,8 +15,15 @@ export class CondicionesComponent implements OnInit {
   staticAlertClosed5 = false;
   staticAlertClosed6 = false;
   staticAlertClosed7 = false;
+  public nombre : String
 
-  constructor(private toastr: ToastrService) { }
+  constructor(
+    private toastr: ToastrService, 
+    private _router: Router, 
+    private _activatedRoute: ActivatedRoute, 
+    //private params: Params 
+    ) { 
+  }
 
   showNotification(from, align){
 
@@ -73,7 +81,13 @@ export class CondicionesComponent implements OnInit {
 }
 
 
-  ngOnInit(): void {
-  }
+  ngOnInit() {
+
+    this._activatedRoute.params.subscribe((params: Params) =>{
+    console.log(params);
+    this.nombre = params.nombre
+
+  })
+}
 
 }
