@@ -27,6 +27,7 @@ export class DashboardComponent implements OnInit {
   public PaisOrigen : String; 
   public Residencia : String; 
   public Puntos : String; 
+  public servicioAbajoMensaje : String
 
 
   constructor(private jugadorService: JugadorService) {
@@ -37,6 +38,7 @@ export class DashboardComponent implements OnInit {
     this.PaisOrigen = "Pais de Origen";
     this.Residencia = "Residencia";
     this.Puntos = "Puntos";
+    this.servicioAbajoMensaje = "El servicio se encuentra en mantenimiento!!!";
 
   }
 

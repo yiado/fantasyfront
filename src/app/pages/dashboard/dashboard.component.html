@@ -320,40 +320,48 @@
         <div class=" card-header">
           <h4 class=" card-title">{{NombreTabla}}</h4>
         </div>
-        <div class=" card-body">
-          <div class=" table-responsive">
-            <table class=" table tablesorter" id="">
-              <thead class=" text-primary">
-                <tr>
-                  <th >{{Posicion}}</th>
-                  <th>{{Nombre}}</th>
-                  <th>{{PaisOrigen}}</th>
-                  <th>{{Residencia}}</th>
-                  <th class=" text-center">{{Puntos}}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr *ngFor="let Ranking of Rankings;let indice=index">
-                  <!--Ejemplo como atrivuto NgStyle-->
-                  <!-- <th><span [class.bg-success]="indice > 0" [class.badge]="indice > 0">{{indice+1}}º</span></th> -->
-                  <!--Ejemplo NgClass -->
-                  <th><span [ngClass]="{
-                                      'badge': indice >= 0,
-                                      'bg-danger': indice == 0,
-                                      'bg-success': indice == 1,
-                                      'bg-info': indice === 2
-                                    }"
-                     >{{indice+1}}º</span></th>
-                  <td>{{Ranking.nombre}}</td>
-                  <td>{{Ranking.pais}}</td>
-                  <td>{{Ranking.residencia}}</td>
-                  <td class=" text-center">{{Ranking.puntosGlobales}}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <!--Llamado de directiva ng template, condicion then(si) y else-->
+        <div class=" card-body" *ngIf="Rankings; then servicioArriba else servicioAbajo">
         </div>
       </div>
+
+      <ng-template #servicioArriba>
+        <div class=" table-responsive">
+          <table class=" table tablesorter" id="">
+            <thead class=" text-primary">
+              <tr>
+                <th >{{Posicion}}</th>
+                <th>{{Nombre}}</th>
+                <th>{{PaisOrigen}}</th>
+                <th>{{Residencia}}</th>
+                <th class=" text-center">{{Puntos}}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let Ranking of Rankings;let indice=index">
+                <!--Ejemplo como atrivuto NgStyle-->
+                <!-- <th><span [class.bg-success]="indice > 0" [class.badge]="indice > 0">{{indice+1}}º</span></th> -->
+                <!--Ejemplo NgClass -->
+                <th><span [ngClass]="{
+                                    'badge': indice >= 0,
+                                    'bg-danger': indice == 0,
+                                    'bg-success': indice == 1,
+                                    'bg-info': indice === 2
+                                  }"
+                   >{{indice+1}}º</span></th>
+                <td>{{Ranking.nombre}}</td>
+                <td>{{Ranking.pais}}</td>
+                <td>{{Ranking.residencia}}</td>
+                <td class=" text-center">{{Ranking.puntosGlobales}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </ng-template>
+
+      <ng-template #servicioAbajo>
+          <h2>{{ servicioAbajoMensaje }}</h2>
+      </ng-template>
     </div>
   </div>
 </div>
