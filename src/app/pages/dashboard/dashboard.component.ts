@@ -1,5 +1,5 @@
 import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, Input } from "@angular/core";
 import Chart from 'chart.js';
 import { Jugador } from "src/app/interface/jugador";
 import { JugadorService } from 'src/app/service/jugador.service';
@@ -28,6 +28,8 @@ export class DashboardComponent implements OnInit {
   public Residencia : String; 
   public Puntos : String; 
   public servicioAbajoMensaje : String
+
+  @Input() pasandoParametro : String
 
 
   constructor(private jugadorService: JugadorService) {

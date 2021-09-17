@@ -7,9 +7,11 @@ import { Component, OnInit, DoCheck, OnDestroy } from "@angular/core";
 export class UserComponent implements OnInit, DoCheck, OnDestroy {
 
   public mostrartabla : boolean
+  public textoParametro : String
 
   constructor() {
     this.mostrartabla = true
+    this.textoParametro = "Hola desde el componente padre"
   }
 
   ngOnInit() {

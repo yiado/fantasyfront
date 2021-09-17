@@ -319,6 +319,7 @@
       <div class=" card">
         <div class=" card-header">
           <h4 class=" card-title">{{NombreTabla}}</h4>
+          <h5 class=" card-title" *ngIf="pasandoParametro">{{ pasandoParametro }}</h5>
         </div>
         <!--Llamado de directiva ng template, condicion then(si) y else-->
         <div class=" card-body" *ngIf="Rankings; then servicioArriba else servicioAbajo">
