@@ -1,4 +1,6 @@
 import { Component, OnInit, DoCheck, OnDestroy } from "@angular/core";
+//import { Jugador } from "src/app/interface/jugador";
+import { Jugador } from "src/app/model/jugador";
 
 @Component({
   selector: "app-user",
@@ -8,6 +10,8 @@ export class UserComponent implements OnInit, DoCheck, OnDestroy {
 
   public mostrartabla : boolean
   public textoParametro : String
+  public favorito : Jugador
+  
 
   constructor() {
     this.mostrartabla = true
@@ -29,6 +33,11 @@ export class UserComponent implements OnInit, DoCheck, OnDestroy {
   upTabla(){
     this.mostrartabla = false
     console.log("mostar tables", this.mostrartabla)
+  }
+
+  mostrarFavorito(event){
+    this.favorito = event.jugador
+    console.log(this.favorito)
   }
 
 

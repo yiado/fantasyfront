@@ -1,5 +1,5 @@
 import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
 import Chart from 'chart.js';
 import { Jugador } from "src/app/interface/jugador";
 import { JugadorService } from 'src/app/service/jugador.service';
@@ -26,10 +26,12 @@ export class DashboardComponent implements OnInit {
   public Nombre : String; 
   public PaisOrigen : String; 
   public Residencia : String; 
+  public Valor : String
   public Puntos : String; 
   public servicioAbajoMensaje : String
 
   @Input() pasandoParametro : String
+  @Output() favoritoMarcado = new EventEmitter()
 
 
   constructor(private jugadorService: JugadorService) {
@@ -39,6 +41,7 @@ export class DashboardComponent implements OnInit {
     this.Nombre = "Jugador";
     this.PaisOrigen = "Pais de Origen";
     this.Residencia = "Residencia";
+    this.Valor = "Valor";
     this.Puntos = "Puntos";
     this.servicioAbajoMensaje = "El servicio se encuentra en mantenimiento!!!";
 
@@ -54,6 +57,13 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  seleccionar(Ranking){
+    this.favoritoMarcado.emit({
+      jugador: Ranking
+    })
+
+  }
+
   ngOnInit() {
   
     this.getAllJugador()
@@ -63,4 +73,6 @@ export class DashboardComponent implements OnInit {
     this.myChartData.data.datasets[0].data = this.data;
     this.myChartData.update();
   }
+
+
 }

@@ -5,12 +5,8 @@ export interface Jugador {
 
     id: number,
     nombre: string,
+    pais: string,
+    puntosGlobales: number,
+    residencia: string,
     status: boolean
-
-
-    /*id: string,
-    name: string,
-    year: number,
-	director: string,
-    protagonista: string*/
 }

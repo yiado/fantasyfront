@@ -319,7 +319,9 @@
       <div class=" card">
         <div class=" card-header">
           <h4 class=" card-title">{{NombreTabla}}</h4>
-          <h5 class=" card-title" *ngIf="pasandoParametro">{{ pasandoParametro }}</h5>
+          <div *ngIf="pasandoParametro">
+            <h5 class=" card-title">{{ pasandoParametro }}</h5>
+          </div>
         </div>
         <!--Llamado de directiva ng template, condicion then(si) y else-->
         <div class=" card-body" *ngIf="Rankings; then servicioArriba else servicioAbajo">
@@ -335,6 +337,7 @@
                 <th>{{Nombre}}</th>
                 <th>{{PaisOrigen}}</th>
                 <th>{{Residencia}}</th>
+                <th *ngIf="pasandoParametro">{{Valor}}</th>
                 <th class=" text-center">{{Puntos}}</th>
               </tr>
             </thead>
@@ -353,6 +356,9 @@
                 <td>{{Ranking.nombre}}</td>
                 <td>{{Ranking.pais}}</td>
                 <td>{{Ranking.residencia}}</td>
+                <td *ngIf="pasandoParametro">
+                  <button class=" btn btn-sm btn-danger" (click)="seleccionar(Ranking)">Save</button>
+                </td>
                 <td class=" text-center">{{Ranking.puntosGlobales}}</td>
               </tr>
             </tbody>

@@ -139,7 +139,7 @@ Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.
         <hr>
       <!--Llamando componentes atraves de directivas, pasando parametros atraves a componentes--> 
       <div *ngIf="mostrartabla">
-        <app-dashboard [pasandoParametro]="textoParametro"></app-dashboard>
+        <app-dashboard [pasandoParametro]="textoParametro" (favoritoMarcado)="mostrarFavorito($event)"></app-dashboard>
       </div>
       </div>
     </div>
