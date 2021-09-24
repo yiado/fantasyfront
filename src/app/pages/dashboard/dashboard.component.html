@@ -336,8 +336,20 @@
                 <tr *ngFor="let Ranking of Rankings;let indice=index">
                   <th>{{indice+1}}º</th>
                   <td>{{Ranking.nombre}}</td>
-                  <td>{{Ranking.pais}}</td>
-                  <td>{{Ranking.residencia}}</td>
+                  <td>
+                    <div class="avatar-group">
+                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
+                        <img alt="Image placeholder" [src]="(imgPath + Ranking.pais + imgExt)" class="rounded-circle">
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="avatar-group">
+                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
+                        <img alt="Image placeholder" [src]="(imgPath + Ranking.residencia + imgExt)" class="rounded-circle">
+                      </a>
+                    </div>
+                  </td>
                   <td class=" text-center">{{Ranking.puntosGlobales}}</td>
                 </tr>
               </tbody>

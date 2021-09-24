@@ -25,15 +25,19 @@ export class TablesComponent implements OnInit, DoCheck {
     fecha: '',
     status: true
 };
+  public imgPath : String;
+  public imgExt : String;
 
   constructor(private rankingService: RankingService, private torneoService: TorneoService) {
 
     this.NombreTabla = "Tabla Detalle";
-    this.Posicion = "Posición";
+    this.Posicion = "Nº";
     this.Nombre = "Jugador";
     this.Torneo = "Torneo";
     this.Residencia = "Residencia";
     this.Puntos = "Puntos";
+    this.imgPath = "../assets/img/theme/";
+    this.imgExt = ".png";
   }
 
   getAllRanking(id){

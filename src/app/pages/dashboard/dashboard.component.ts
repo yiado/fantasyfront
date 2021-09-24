@@ -26,17 +26,22 @@ export class DashboardComponent implements OnInit {
   public Nombre : String; 
   public PaisOrigen : String; 
   public Residencia : String; 
-  public Puntos : String; 
+  public Puntos : String;
+  public imgPath : String;
+  public imgExt : String;
+
 
 
   constructor(private jugadorService: JugadorService) {
 
     this.NombreTabla = "Tabla General";
-    this.Posicion = "Posición";
+    this.Posicion = "Nº";
     this.Nombre = "Jugador";
     this.PaisOrigen = "Pais de Origen";
     this.Residencia = "Residencia";
     this.Puntos = "Puntos";
+    this.imgPath = "../assets/img/theme/";
+    this.imgExt = ".png";
 
   }
 

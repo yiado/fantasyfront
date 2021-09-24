@@ -35,7 +35,13 @@
                 <tr *ngFor="let Ranking of Rankings;let indice=index">
                   <td>{{indice+1}}º</td>
                   <td>{{Ranking.jugadorId.nombre}}</td>
-                  <td>{{Ranking.jugadorId.residencia}}</td>
+                  <td>
+                    <div class="avatar-group">
+                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
+                        <img alt="Image placeholder" [src]="(imgPath + Ranking.jugadorId.residencia + imgExt)" class="rounded-circle">
+                      </a>
+                    </div>
+                  </td>
                   <td>{{Ranking.torneoId.nombre}}</td>
                   <td class=" text-center">{{Ranking.puntos}}</td>
                 </tr>
