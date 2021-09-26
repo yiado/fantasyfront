@@ -325,32 +325,68 @@
             <table class=" table tablesorter" id="">
               <thead class=" text-primary">
                 <tr>
-                  <th >{{Posicion}}</th>
-                  <th>{{Nombre}}</th>
-                  <th>{{PaisOrigen}}</th>
-                  <th>{{Residencia}}</th>
+                  <th class=" text-center">{{Posicion}}</th>
+                  <th class=" text-center">{{Nombre}}</th>
+                  <th class=" text-center">{{PaisOrigen}}</th>
+                  <th class=" text-center">{{Residencia}}</th>
+                  <th class=" text-center">{{Temporada}}</th>
                   <th class=" text-center">{{Puntos}}</th>
+                  <th class=" text-center">
+                    <div class="avatar-group">
+                      <a class="avatar avatar-sm" data-toggle="tooltip" data-original-title="rerererererer">
+                        <img alt="Image placeholder" src="../../../assets/img/theme/trofeoOro.png" class="rounded-circle">
+                      </a>
+                    </div>
+                  </th>
+                  <th class=" text-center">
+                    <div class="avatar-group">
+                      <a class="avatar avatar-sm" data-toggle="tooltip" data-original-title="rerererererer">
+                        <img alt="Image placeholder" src="../../../assets/img/theme/trofeoPlata.png" class="rounded-circle">
+                      </a>
+                    </div>
+                  </th>
+                  <th class=" text-center">
+                    <div class="avatar-group">
+                      <a class="avatar avatar-sm" data-toggle="tooltip" data-original-title="rerererererer">
+                        <img alt="Image placeholder" src="../../../assets/img/theme/trofeoBronce.png" class="rounded-circle">
+                      </a>
+                    </div>
+                  </th>
+                  <!-- <th class=" text-center">
+                    <div class="avatar-group">
+                      <a class="avatar avatar-sm" data-toggle="tooltip" data-original-title="rerererererer">
+                        <img alt="Image placeholder" src="../../../assets/img/theme/ranking.png" class="rounded-circle">
+                      </a>
+                    </div>
+                  </th> -->
+                  <th class=" text-center">{{MejorPosicion}}</th>
+                  
                 </tr>
               </thead>
               <tbody>
                 <tr *ngFor="let Ranking of Rankings;let indice=index">
-                  <th>{{indice+1}}º</th>
-                  <td>{{Ranking.nombre}}</td>
-                  <td>
+                  <th class=" text-center">{{indice+1}}º</th>
+                  <td class=" text-center">{{Ranking.nombre}}</td>
+                  <td class=" text-center">
                     <div class="avatar-group">
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
+                      <a class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
                         <img alt="Image placeholder" [src]="(imgPath + Ranking.pais + imgExt)" class="rounded-circle">
                       </a>
                     </div>
                   </td>
-                  <td>
+                  <td class=" text-center">
                     <div class="avatar-group">
-                      <a href="javascript:void(0)" class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
+                      <a class="avatar avatar-sm" data-toggle="tooltip" data-original-title="Venezuela">
                         <img alt="Image placeholder" [src]="(imgPath + Ranking.residencia + imgExt)" class="rounded-circle">
                       </a>
                     </div>
                   </td>
+                  <td class=" text-center"></td>
                   <td class=" text-center">{{Ranking.puntosGlobales}}</td>
+                  <td class=" text-center"></td>
+                  <td class=" text-center"></td>
+                  <td class=" text-center"></td>
+                  <td class=" text-center"></td>
                 </tr>
               </tbody>
             </table>

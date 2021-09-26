@@ -18,24 +18,24 @@ export class TablesComponent implements OnInit, DoCheck {
   public Puntos : String; 
   public Rankings : Ranking[];
   public Torneos : Torneo[];
-  public selectTorneo: Torneo ={  
+  /*public selectTorneo: Torneo ={  
     id: 54,
     nombre: '',
     tipo: '',
     fecha: '',
     status: true
-};
+};*/
   public imgPath : String;
   public imgExt : String;
 
   constructor(private rankingService: RankingService, private torneoService: TorneoService) {
 
-    this.NombreTabla = "Tabla Detalle";
+    this.NombreTabla = "Torneos";
     this.Posicion = "Nº";
     this.Nombre = "Jugador";
     this.Torneo = "Torneo";
-    this.Residencia = "Residencia";
-    this.Puntos = "Puntos";
+    this.Residencia = "PR";
+    this.Puntos = "Pts";
     this.imgPath = "../assets/img/theme/";
     this.imgExt = ".png";
   }
@@ -59,7 +59,7 @@ export class TablesComponent implements OnInit, DoCheck {
   /* Hooks */ 
   ngOnInit() {
     this.getAllTorneo()
-    this.getAllRanking(this.selectTorneo.id)
+    /*this.getAllRanking(this.selectTorneo.id)*/
 
   }
   /* Hooks escucha todos los cambios en la vista*/ 

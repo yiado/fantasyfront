@@ -26,7 +26,12 @@ export class DashboardComponent implements OnInit {
   public Nombre : String; 
   public PaisOrigen : String; 
   public Residencia : String; 
+  public Temporada : String;
   public Puntos : String;
+  public PrimerLugar : String;
+  public SegundoLugar : String;
+  public TercerLugar : String;
+  public MejorPosicion : String;
   public imgPath : String;
   public imgExt : String;
 
@@ -34,12 +39,17 @@ export class DashboardComponent implements OnInit {
 
   constructor(private jugadorService: JugadorService) {
 
-    this.NombreTabla = "Tabla General";
+    this.NombreTabla = "Ranking Historico";
     this.Posicion = "Nº";
     this.Nombre = "Jugador";
-    this.PaisOrigen = "Pais de Origen";
-    this.Residencia = "Residencia";
-    this.Puntos = "Puntos";
+    this.PaisOrigen = "PO";
+    this.Residencia = "PR";
+    this.Temporada = "TEMP"
+    this.Puntos = "PTS";
+    this.PrimerLugar = "medallaOro";
+    this.SegundoLugar = "medallaPlata";
+    this.TercerLugar = "medallaBronce";
+    this.MejorPosicion = "MP";
     this.imgPath = "../assets/img/theme/";
     this.imgExt = ".png";
 

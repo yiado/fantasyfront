@@ -16,9 +16,16 @@ export const ROUTES: RouteInfo[] = [
     class: ""
   },{
     path: "/tables",
-    title: "Detalle",
+    title: "Torneos",
     rtlTitle: "قائمة الجدول",
     icon: "icon-chart-bar-32",
+    class: ""
+  },
+  {
+    path: "/notifications",
+    title: "Terminos & Condiciones",
+    rtlTitle: "إخطارات",
+    icon: "icon-alert-circle-exc",
     class: ""
   }/*,{
     path: "/user",
