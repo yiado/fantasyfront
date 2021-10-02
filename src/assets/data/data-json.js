@@ -682,3 +682,34 @@
         ]
     }
 ]
+
+
+/*
+select * from jugador where jugador_id = 84;
+set @valor = 84;
+select * from
+(select jugador_id, jugador_name, jugador_pais, puntos_gobales from jugador where jugador_id = @valor) t0,
+(select count(posicion) as oro from inscripcion where posicion = 1 and jugador_id = @valor) t1,
+(select count(posicion) as plata from inscripcion where posicion = 2 and jugador_id = @valor) t2,
+(select count(posicion) as bronce from inscripcion where posicion = 3 and jugador_id = @valor) t3,
+(select min(posicion) as mejorPosicion from inscripcion where jugador_id = @valor) t4,
+(select count(torneo_id) as temporadas from inscripcion where jugador_id = @valor and puntos != 0) t5;
+
+SELECT NOW();
+
+SELECT DISTINCT j.jugador_id, j.jugador_name, j.jugador_pais, j.puntos_gobales,
+(select count(posicion) from inscripcion where posicion = 1 and jugador_id = j.jugador_id) AS oro,
+(select count(posicion) from inscripcion where posicion = 2 and jugador_id = j.jugador_id) AS plata,
+(select count(posicion) from inscripcion where posicion = 3 and jugador_id = j.jugador_id) AS bronce,
+(select min(posicion) from inscripcion where jugador_id = j.jugador_id) AS mejorPosicion,
+(select count(torneo_id) from inscripcion where jugador_id = j.jugador_id and puntos != 0) AS temporadas
+FROM jugador AS j;
+
+
+SELECT * FROM inscripcion;
+
+-- todo: implement;
+
+-- todo: implement;
+*/
+
