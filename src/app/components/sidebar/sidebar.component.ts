@@ -15,21 +15,21 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-trophy",
     class: ""
   },{
-    path: "/tables",
+    path: "/torneos",
     title: "Torneos",
     rtlTitle: "قائمة الجدول",
     icon: "icon-chart-bar-32",
     class: ""
   },
   {
-    path: "/user",
+    path: "/detalles",
     title: "Detalle",
     rtlTitle: "ملف تعريفي للمستخدم",
     icon: "icon-zoom-split",
     class: ""
   },
   {
-    path: "/notifications",
+    path: "/condiciones",
     title: "Terminos & Condiciones",
     rtlTitle: "إخطارات",
     icon: "icon-alert-circle-exc",
