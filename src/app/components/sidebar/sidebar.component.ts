@@ -34,20 +34,6 @@ export const ROUTES: RouteInfo[] = [
     rtlTitle: "إخطارات",
     icon: "icon-alert-circle-exc",
     class: ""
-  },
-  {
-    path: "/icons",
-    title: "Icons",
-    rtlTitle: "الرموز",
-    icon: "icon-atom",
-    class: ""
-  },
-  {
-    path: "/typography",
-    title: "Typography",
-    rtlTitle: "طباعة",
-    icon: "icon-align-center",
-    class: ""
   }/*,{
     path: "/user",
     title: "User Profile",

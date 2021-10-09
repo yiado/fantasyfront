@@ -40,12 +40,26 @@
     }
 }
 
+.logo-img-medalla{
+    img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
 .logo-team-pro {
     //padding: 0.5rem 1.3rem;
     z-index: 4;
     display: block;
     margin-left: 10%;
     margin-right: auto;
+}
+
+.list-group-item-medallas {
+  position: relative;
+  display: block;
+  padding: 0.2rem 0.2rem;
+  margin-bottom: -0.0625rem;
 }
 
 .sidebar, .off-canvas-sidebar{
@@ -71,7 +85,9 @@
 /* Left column */
 .leftcolumn {
   float: left;
-  width: 75%;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* Right column */
@@ -83,17 +99,18 @@
 
 /* Fake image */
 .fakeimg {
-  background-color: #fff;
+  background-color: #27293e;
+  //background-color: #fff;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Add a card effect for articles */
-.card {
+/*.card {
   background-color: #27293e;
   padding: 20px;
   margin-top: 20px;
-}
+}*/
 
 /* Clear floats after the columns */
 .row:after {
@@ -107,5 +124,7 @@
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

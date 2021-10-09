@@ -28,25 +28,29 @@
               This is a notification with close button and icon.
             </span>
           </ngb-alert>-->
-          <ngb-alert [type]="'info'" *ngIf="!staticAlertClosed4" [dismissible]="false">
-            <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed4 = true">
+          <ngb-alert [type]="'info'" *ngIf="!staticAlertClosed7" [dismissible]="false">
+            <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed7 = true">
             </button>
-            <br>
             <span align="justify">
               <b>1.</b> Actualmente se encuentra estipulada la premiación de 5 paticipante.
-            </span> 
-            <br>
+            </span>
+          </ngb-alert>
+          <ngb-alert [type]="'success'" *ngIf="!staticAlertClosed7" [dismissible]="false">
+            <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed7 = true">
+            </button>
             <span align="justify">
               <b>2.</b> Matemáticamente se establece que por cada 4 participantes se establece un puesto de premiado con un tope de 5 participantes premiados.
             </span>
-            <br>
+          </ngb-alert>
+          <ngb-alert [type]="'info'" *ngIf="!staticAlertClosed7" [dismissible]="false">
+            <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed7 = true">
+            </button>
             <span align="justify">
               <b>3.</b> Los premios son calculados como se describen a continueción en base a los siguientes porcentajes del monto total.
               <div class=" typography-line">
                 <br>
                 <div class=" row">
                   <div class=" col-md-3">
-                    <h5>Premios</h5>
                     <ul>
                       <li>1º -  45%</li>
                       <li>2º -  25%</li>
@@ -58,6 +62,10 @@
                 </div>
               </div>
             </span>
+          </ngb-alert>
+          <ngb-alert [type]="'warning'" *ngIf="!staticAlertClosed7" [dismissible]="false">
+            <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed7 = true">
+            </button>
             <span align="justify">
               <b>4.</b> En el caso de que en proximas competiciones la cantidad de participantes sea menor a la de actual, los % seran ajustados 
               en partes partes iguales tomando en consideración lo descripto en el punto 2.
@@ -69,7 +77,7 @@
     <div class=" col-md-6">
       <div class=" card">
         <div class=" card-header">
-          <h4 class=" card-title"><b>Información y Bases Teoricas para Calculo de Rankign Historico</b></h4>
+          <h4 class=" card-title"><b>Información y Bases Teoricas para Calculo de Rankign Historico.</b></h4>
         </div>
         <div class=" card-body">
           <!--<ngb-alert [type]="'primary'" *ngIf="!staticAlertClosed3" [dismissible]="false">
@@ -97,9 +105,9 @@
                 <div class=" row">
                   <div class=" col-md-3">
                     <ul>
-                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Premier_League" target="_blank"> Premier League</a></li>
-                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Primera_Divisi%C3%B3n_de_Espa%C3%B1a" target="_blank"> La Liga</a></li>
-                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Serie_A_(Italia)" target="_blank"> La Seria A</a></li>
+                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Premier_League" target="_blank">Premier</a></li>
+                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Primera_Divisi%C3%B3n_de_Espa%C3%B1a" target="_blank">Liga</a></li>
+                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Serie_A_(Italia)" target="_blank">Seria A</a></li>
                     </ul>
                   </div>
                 </div>
