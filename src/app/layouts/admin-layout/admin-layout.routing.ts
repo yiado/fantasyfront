@@ -10,7 +10,7 @@ import { TypographyComponent } from "../../pages/typography/typography.component
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 export const AdminLayoutRoutes: Routes = [
-  { path: "dashboard", component: DashboardComponent },
+  { path: "ranking", component: DashboardComponent },
   { path: "icons", component: IconsComponent },
   { path: "maps", component: MapComponent },
   { path: "condiciones", component: NotificationsComponent },
