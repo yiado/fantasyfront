@@ -3,10 +3,10 @@
     <div class=" col-md-6">
       <div class=" card">
         <div class=" card-header">
-          <h4 class=" card-title">Notifications Style</h4>
+          <h4 class=" card-title"><b> Condiciones. </b></h4>
         </div>
         <div class=" card-body">
-          <ngb-alert [type]="'info'" [dismissible]="false">
+          <!--<ngb-alert [type]="'info'" [dismissible]="false">
             <span> This is a plain notification </span>
           </ngb-alert>
           <ngb-alert [type]="'info'" *ngIf="!staticAlertClosed" [dismissible]="false">
@@ -27,22 +27,40 @@
             <span data-notify="message">
               This is a notification with close button and icon.
             </span>
-          </ngb-alert>
-          <ngb-alert
-            class=" alert-with-icon"
-            data-notify="container"
-            [type]="'info'"
-            *ngIf="!staticAlertClosed2" [dismissible]="false">
-              <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed2 = true">
-                <i class="tim-icons icon-simple-remove"></i>
-              </button>
-            <span class=" tim-icons icon-bell-55" data-notify="icon">
+          </ngb-alert>-->
+          <ngb-alert [type]="'info'" *ngIf="!staticAlertClosed4" [dismissible]="false">
+            <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed4 = true">
+            </button>
+            <br>
+            <span align="justify">
+              <b>1.</b> Actualmente se encuentra estipulada la premiación de 5 paticipante.
+            </span> 
+            <br>
+            <span align="justify">
+              <b>2.</b> Matemáticamente se establece que por cada 4 participantes es 1 puesto de premio con un tope de 5 participantes premiados.
             </span>
-            <span data-notify="message">
-              This is a notification with close button and icon and have
-              many lines. You can see that the icon and the close button
-              are always vertically aligned. This is a beautiful
-              notification. So you don't have to worry about the style.
+            <br>
+            <span align="justify">
+              <b>3.</b> Los premios son calculados como se describen a continueción en base a los siguientes porcentajes del monto total.
+              <div class=" typography-line">
+                <br>
+                <div class=" row">
+                  <div class=" col-md-3">
+                    <h5>Premios</h5>
+                    <ul>
+                      <li>1º -  45%</li>
+                      <li>2º -  25%</li>
+                      <li>3º -  15%</li>
+                      <li>4º -  10%</li>
+                      <li>5º -  5%</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <span align="justify">
+              <b>4.</b> En el caso de que en proximas competiciones la cantidad de participantes sea menor a la de actual, los % seran ajustados 
+              en partes partes iguales tomando en consideración lo descripto en el punto 2.
             </span>
           </ngb-alert>
         </div>
@@ -51,10 +69,10 @@
     <div class=" col-md-6">
       <div class=" card">
         <div class=" card-header">
-          <h4 class=" card-title">Notification states</h4>
+          <h4 class=" card-title"><b>Información y Bases Teoricas para Calculo de Rankign Historico</b></h4>
         </div>
         <div class=" card-body">
-          <ngb-alert [type]="'primary'" *ngIf="!staticAlertClosed3" [dismissible]="false">
+          <!--<ngb-alert [type]="'primary'" *ngIf="!staticAlertClosed3" [dismissible]="false">
             <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed3 = true">
               <i class="tim-icons icon-simple-remove"></i>
             </button>
@@ -62,17 +80,34 @@
               <b> Primary - </b> This is a regular notification made
               with ".alert-primary"
             </span>
-          </ngb-alert>
+          </ngb-alert>-->
           <ngb-alert [type]="'info'" *ngIf="!staticAlertClosed4" [dismissible]="false">
             <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed4 = true">
-              <i class="tim-icons icon-simple-remove"></i>
             </button>
-            <span>
-              <b> Info - </b> This is a regular notification made with
-              ".alert-info"
+            <br>
+            <span align="justify">
+              La clasificación histórica del Fantasy Football TeamPro fue desarrollada por <a href="https://yiado.cl/" target="_blank"> Yiado.cl</a><br><br> 
+              La sumatoria de puntos esta definida por la cantidad de puntos conseguidos por cada jugador participante, 
+              independientemente de la cantidad de titulos obtenidos y la cantidad de 
+              participaciones por jugador, dejando estipulado que el ranking historico es un reflejo del seguimiento de 
+              la regularidad de cada jugador, posteriormente entregaremos mayores estadisticas que describan otros escenarios.<br><br>
+              El calculo se tomo en base a las condiciones que establecen las principales ligas de futbol.
+              <div class=" typography-line">
+                <br>
+                <div class=" row">
+                  <div class=" col-md-3">
+                    <ul>
+                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Premier_League" target="_blank"> Premier League</a></li>
+                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Primera_Divisi%C3%B3n_de_Espa%C3%B1a" target="_blank"> La Liga</a></li>
+                      <li><a href="https://es.wikipedia.org/wiki/Anexo:Clasificaci%C3%B3n_hist%C3%B3rica_de_la_Serie_A_(Italia)" target="_blank"> La Seria A</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </span>
+
           </ngb-alert>
-          <ngb-alert [type]="'success'" *ngIf="!staticAlertClosed5" [dismissible]="false">
+          <!--<ngb-alert [type]="'success'" *ngIf="!staticAlertClosed5" [dismissible]="false">
             <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed5 = true">
               <i class="tim-icons icon-simple-remove"></i>
             </button>
@@ -80,8 +115,8 @@
               <b> Success - </b> This is a regular notification made
               with ".alert-success"
             </span>
-          </ngb-alert>
-          <ngb-alert [type]="'warning'" *ngIf="!staticAlertClosed6" [dismissible]="false">
+          </ngb-alert>-->
+          <!--<ngb-alert [type]="'warning'" *ngIf="!staticAlertClosed6" [dismissible]="false">
             <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed6 = true">
               <i class="tim-icons icon-simple-remove"></i>
             </button>
@@ -89,8 +124,8 @@
               <b> Warning - </b> This is a regular notification made
               with ".alert-warning"
             </span>
-          </ngb-alert>
-          <ngb-alert [type]="'danger'" *ngIf="!staticAlertClosed7" [dismissible]="false">
+          </ngb-alert>-->
+          <!--<ngb-alert [type]="'danger'" *ngIf="!staticAlertClosed7" [dismissible]="false">
             <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close" (click)="staticAlertClosed7 = true">
               <i class="tim-icons icon-simple-remove"></i>
             </button>
@@ -98,11 +133,11 @@
               <b> Danger - </b> This is a regular notification made with
               ".alert-danger"
             </span>
-          </ngb-alert>
+          </ngb-alert>-->
         </div>
       </div>
     </div>
-    <div class=" col-md-12">
+    <!--<div class=" col-md-12">
       <div class=" card">
         <div class=" card-body">
           <div class=" places-buttons">
@@ -177,6 +212,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
