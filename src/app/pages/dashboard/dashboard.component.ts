@@ -3,6 +3,7 @@ import { Component, OnInit } from "@angular/core";
 import Chart from 'chart.js';
 import { Jugador } from "src/app/interface/jugador";
 import { JugadorService } from 'src/app/service/jugador.service';
+import { ReCaptchaV3Service } from 'ng-recaptcha';
 
 
 @Component({
@@ -37,7 +38,7 @@ export class DashboardComponent implements OnInit {
 
 
 
-  constructor(private jugadorService: JugadorService) {
+  constructor(private jugadorService: JugadorService, private recaptchaV3Service: ReCaptchaV3Service) {
 
     this.NombreTabla = "Ranking Historico";
     this.Posicion = "Nº";
