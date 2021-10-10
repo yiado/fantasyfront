@@ -3,6 +3,7 @@ import { Torneo } from "src/app/interface/torneo";
 import { Ranking } from "src/app/interface/ranking";
 import { RankingService } from 'src/app/service/ranking.service';
 import { TorneoService } from 'src/app/service/torneo.service';
+import { ReCaptchaV3Service } from 'ng-recaptcha';
 
 @Component({
   selector: "app-tables",
@@ -28,7 +29,7 @@ export class TablesComponent implements OnInit, DoCheck {
   public imgPath : String;
   public imgExt : String;
 
-  constructor(private rankingService: RankingService, private torneoService: TorneoService) {
+  constructor(private rankingService: RankingService, private torneoService: TorneoService, private recaptchaV3Service: ReCaptchaV3Service) {
 
     this.NombreTabla = "Torneos";
     this.Posicion = "Nº";
@@ -70,6 +71,8 @@ export class TablesComponent implements OnInit, DoCheck {
 
   onSelect(id:any):void{
      //console.log('id ----->', id)
-     this.getAllRanking(id)
+     this.recaptchaV3Service.execute('importantAction')
+      .subscribe((token) => this.getAllRanking(id));
+     
   }
 }
